@@ -1,0 +1,2394 @@
+https://www.heise.de/mac-and-i/artikel/Die-Systemprozesse-von-macOS-Sierra-3715619.html?seite=all
+
+Möchten Sie diesen Artikel mit der Suchfunktion (Cmd+F) durchsuchen, können Sie ihn auch auf einer Seite darstellen lassen. Die Anker-Symbole hinter den Prozessnamen enthalten Direktlinks, falls Sie in Foren oder auf Ihrer Website auf einen Eintrag verweisen möchten.
+
+A bis C
+accountsd ⚓︎
+
+Der „Accounts Daemon“ ist ein Systemprozess und verwaltet Konten für Services wie Facebook oder Twitter, die in den Systemeinstellungen konfiguriert wurden.
+
+Bundle ID: com.apple.accountsd
+Pfad: /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+
+Activity_agent ⚓︎
+
+Achtung: Hinter dem Prozess verbirgt sich die Malware Proton.B. Siehe auch: Mac-Version von Handbrake mit Malware verteilt
+
+Bundle ID: fr.handbrake.activity_agent
+Pfad: ~/Library/RenderFiles/activity_agent.app
+
+Activity Monitor ⚓︎
+
+Die Aktivitätsanzeige bietet eine Übersicht aller laufenden Prozesse des Systems. Zu jedem Prozess sind weitere Infos wie CPU-Nutzung oder Energieverbrauch verfügbar. Zudem lassen sich Prozesse hier auch beenden.
+
+Bundle ID: com.apple.ActivityMonitor
+Pfad: /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+
+AddressBookSourceSync ⚓︎
+
+Ein Systemprozess, der für das Synchronisieren der Kontakte zuständig ist. Abhängig von den getroffenen Einstellungen kann er sich zu iCloud, Gmail, Facebook oder anderen Diensten verbinden.
+
+Bundle ID: com.apple.AddressBookSourceSync
+Pfad: /System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app/Contents/MacOS/AddressBookSourceSync
+
+AirPlayUIAgent ⚓︎
+
+Bedienoberfläche von AirPlay zum Spiegeln von Audio und Video über eine drahtlose Verbindung, etwa zu einem AppleTV.
+
+Bundle ID: com.apple.AirPlayUIAgent
+Pfad: /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent
+
+AirPlayXPCHelper ⚓︎
+
+Teil der AirPlay-Funktion von macOS. Verbindet sich zu Apple-TV- sowie AirPort-Express-Geräten im lokalen Netzwerk.
+
+Bundle ID: com.apple.AirPlayXPCHelper
+Pfad: /usr/libexec/AirPlayXPCHelper
+
+AirPort Base Station Agent ⚓︎
+
+Überwacht AirPort-Basisstationen in Ihrem Netzwerk. Der Agent prüft auf Firmware-Updates und verwaltet an das Gerät angeschlossene Speichermedien.
+
+Bundle ID: com.apple.AirPortBaseStationAgent
+Pfad: /System/Library/CoreServices/AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent
+
+airportd ⚓︎
+
+Der Airport-Daemon ist ein Hintergrundprozess und verwaltet drahtlose Schnittstellen (WLAN).
+
+Bundle ID: com.apple.airportd
+Pfad: /usr/libexec/airportd
+
+akd ⚓︎
+
+Teil des AuthKit-Frameworks (Authentifizierung/Autorisierung). Findet auch Verwendung bei der Authentifizierung von iCloud- und anderen Konten, die AppleID verwenden.
+
+Bundle ID: com.apple.akd
+Pfad: /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+
+amfid ⚓︎
+
+Der AppleMobileFileIntegrity-Daemon überprüft die Code-Signaturen von aus dem App-Store geladenen Apps. Auf Kernel-Ebene gibt es eine zugehörige Extension, mit der über den Mach-Port 18 kommuniziert wird. Diese arbeitet eng mit der Sandbox zusammen.
+
+Bundle ID: com.apple.MobileFileIntegrity
+Pfad: /usr/libexec/amfid
+
+apple.DevicePropertyReader ⚓︎
+
+Unterstützt Apps wie Fotos oder iPhoto beim Laden von Bildern von einer externen Kamera (iPhone, DSLR etc.), indem er Eigenschaften des angeschlossenen Geräts analysiert.
+
+Bundle ID: com.apple.DevicePropertyReader
+Pfad: /System/Library/Image Capture/Devices/PTPCamera.app/Contents/XPCServices/apple.DevicePropertyReader.xpc/Contents/MacOS/apple.DevicePropertyReader
+
+appleeventsd ⚓︎
+
+Kümmert sich um die Bearbeitung und Verteilung von AppleEvents zwischen Anwendungen. AppleEvents sind grundlegend für AppleScript und erlauben es, Anwendungen per Skript automatisiert zu bedienen.
+
+Bundle ID: com.apple.coreservices.appleevents
+Pfad: /System/Library/CoreServices/appleeventsd
+
+AppleFileServer ⚓︎
+
+Teil von AFP, einem Protokoll zur Datei- und Ordnerfreigabe unter macOS. Stellt Dateien oder Ordner im Netzwerk bereit.
+
+Bundle ID: com.apple.AppleFileServer
+Pfad: /System/Library/CoreServices/AppleFileServer.app/Contents/MacOS/AppleFileServer
+
+AppleIDAuthAgent ⚓︎
+
+Systemprozess, der verwendet wird, um Apple-ID-Zertifikate zu überprüfen.
+
+Bundle ID: com.apple.coreservices.appleid.authentication
+Pfad: /System/Library/CoreServices/AppleIDAuthAgent
+
+AppleMobileDeviceHelper ⚓︎
+
+Unterstützt iTunes bei der Kommunikation mit angeschlossenen iOS-Geräten.
+
+Bundle ID: com.apple.SyncServices.AppleMobileDeviceHelper
+Pfad: /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/Current/AppleMobileDeviceHelper.app/Contents/MacOS/AppleMobileDeviceHelper
+
+AppleSpell ⚓︎
+
+Rechtschreibkorrektur-Service von macOS, der in Cocoa-Anwendungen wie Mail zur Verfügung steht. Wird durch die Systemeinstellungen im Panel „Tastatur/Text“ in der Funktion beeinflusst.
+
+Bundle ID: com.apple.AppleSpell
+Pfad: /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+
+applessdstatistics ⚓︎
+
+Überwacht den SMART-Status (SMART: Self-Monitoring, Analysis and Reporting Technology) von SSDs. Nicht nötig auf Rechnern ohne SSD-Laufwerk.
+
+Bundle ID: com.apple.applessdstatistics
+Pfad: /usr/libexec/applessdstatistics
+
+AppleVNCServer ⚓︎
+
+Behandelt Verbindungen für VNC-Bildschirmfreigaben, falls „Systemeinstellungen/Freigaben/Bildschirmfreigabe“ aktiv ist. Das ist notwendig, um Ihren Mac von einem anderen Computer steuern zu können (siehe Mac & i Heft 2/2017).
+
+Bundle ID: com.apple.AppleVNCServer
+Pfad: /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/MacOS/AppleVNCServer
+
+apsd ⚓︎
+
+Der „Apple Push Service Daemon“ verwaltet Push Notifications in macOS, die als Hinweise in der Mitteilungszentrale oder als iMessages in der Nachrichten-App dargestellt werden.
+
+Bundle ID: com.apple.apsd
+Pfad: /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+
+ARDAgent ⚓︎
+
+Der „Apple Remote Desktop Agent“ ist ein Systemprozess, der die Verwaltung dieses Macs über das Netzwerk mittels der Apple Remote Desktop App ermöglicht.
+
+Bundle ID: com.apple.RemoteDesktopAgent
+Pfad: /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent
+
+askpermissiond ⚓︎
+
+„Kaufgenehmigung einholen“ ist ein Bestandteil der Familienfreigabe von macOS. Wenn ein Familienmitglied, welches noch kein Erwachsener ist, einen Einkauf initiiert, wird eine Kaufgenehmigungs-Anfrage an den Familienorganisator geschickt. Dementsprechend werden Verbindungen zu unterschiedlichen Servern von Apple benötigt.
+
+Bundle ID: com.apple.askpermissiond
+Pfad: /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+
+AskPermissionUI ⚓︎
+
+Systemprozess, der die „Kaufgenehmigung einholen“-Funktion der Familienfreigabe implementiert. Wenn ein Familienmitglied, welches noch kein Erwachsener ist, einen Einkauf initiiert, wird eine Kaufgenehmigungs-Anfrage an den Familienorganisator geschickt. Dementsprechend werden Verbindungen zu unterschiedlichen Servern von Apple benötigt.
+
+Bundle ID: com.apple.AskPermissionUI
+Pfad: /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/AskPermissionUI.app/Contents/MacOS/AskPermissionUI
+
+aslmanager ⚓︎
+
+Der „Apple System Log Data Life-Cycle Manager“ kümmert sich darum, dass von syslogd geschriebene Log-Dateien gemäß der Regeln (/etc/asl.conf) geschrieben, rotiert und archiviert werden.
+
+Bundle ID: com.apple.aslmanager
+Pfad: /usr/sbin/aslmanager
+
+AssetCache ⚓︎
+
+Dienst, der den Download-Cache verwaltet, sofern aktiviert. Siehe auch den nächsten Eintrag zum AssetCacheLocatorService.
+
+Pfad: /usr/libexec/AssetCache/AssetCache
+
+AssetCacheLocatorService ⚓︎
+
+Bestandteil von macOS und durchsucht das Netzwerk nach verfügbaren macOS-Servern, die die Einstellung „Caching-Dienst“ aktiviert haben. Durch diese Einstellung werden Downloads aus dem App Store, iTunes Store und iBook Store auf dem Server zwischengespeichert, um später an mögliche macOS-Clients direkt verteilt werden zu können.
+
+Bundle ID: com.apple.AssetCacheLocatorService
+Pfad: /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService
+
+assistantd ⚓︎
+
+Wenn Sie die Diktat-Funktion von macOS verwenden, sendet der „Assistant Daemon“ Ihre Spracheingabe zu Apple, um sie in Text umzuwandeln.
+
+Bundle ID: com.apple.assistantd
+Pfad: /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+
+ath ⚓︎
+
+Gehört zum AirTrafficHost-Prozess, den iTunes und iOS verwenden, um iPhones und iPads über eine drahtlose Verbindung zu synchronisieren (nicht über ein USB-Kabel).
+
+Bundle ID: com.apple.AirTrafficHost
+Pfad: /System/Library/PrivateFrameworks/AirTrafficHost.framework/ath
+
+authd ⚓︎
+
+Verwaltet die Authorisierungsdatenbank von macOS und startet privilegierte Prozesse.
+
+Bundle ID: com.apple.authd
+Pfad: /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+
+autofsd ⚓︎
+
+Bindet mit Hilfe von automount automatisch Netzwerk-Freigaben ein, sobald sich die Netzwerkumgebung ändert.
+
+Bundle ID: com.apple.autofsd
+Pfad: /usr/libexec/autofsd
+
+automount ⚓︎
+
+Verantwortlich, um bei Bedarf Volumes von entfernten Servern zu aktivieren.
+
+Pfad: /usr/sbin/automount
+
+automountd ⚓︎
+
+„Automount Daemon“ ist ein Systemtool, welches Netzwerkdateisysteme automatisch aktiviert oder deaktiviert.
+
+Bundle ID: com.apple.automountd
+Pfad: /usr/libexec/automountd
+
+avconferenced ⚓︎
+
+Der „AVConference Daemon“ leitet die Kommunikation für FaceTime-Anrufe.
+
+Bundle ID: com.apple.videoconference.avconference
+Pfad: /usr/libexec/avconferenced
+
+awacsd ⚓︎
+
+Der „Apple Wide Area Connectivity Service Daemon“ ist ein Systemprozess, der für „Meinen Mac suchen“ benötigt wird. Er verbindet sich zu mehreren Apple-Servern, um Ihren entfernten Mac zu finden und verbindet sich dann auf vielen verschiedenen Ports zu seiner lokalen, getunnelten IP-Adresse.
+
+Bundle ID: com.apple.awacsd
+Pfad: /usr/libexec/awacsd
+
+awdd ⚓︎
+
+Der „Apple Wireless Diagnostics Daemon“ sendet Diagnose-Daten an Apple, wenn man zugestimmt hat.
+
+Bundle ID: com.apple.awdd
+Pfad: /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+
+backupd ⚓︎
+
+Hintergrundprozess von Time Machine, der das Anlegen von Backups aussteuert. Ob das automatisch oder bei Bedarf erfolgen soll, konfiguriert man über die Systemeinstellung „Time Machine“.
+
+Bundle ID: com.apple.backupd.bundle
+Pfad: /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+
+backupd-helper ⚓︎
+
+Hilfsprozess für backupd.
+
+Bundle ID: com.apple.backupd.bundle
+Pfad: /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper
+
+bash ⚓︎
+
+Die GNU Bourne-Again Shell, aka die Standard-Kommandozeile von macOS. Kann durch Shells ersetzt werden, die die Kommandozeile anders umsetzen.
+
+Pfad: /bin/bash
+
+bird ⚓︎
+
+Unter anderem für die Synchronisation des iCloud Drives mit der iCloud verantwortlich.
+
+Bundle ID: com.apple.bird
+Pfad: /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+
+blued ⚓︎
+
+Der Bluetooth-Daemon von macOS kümmert sich um das Service Discovery Protocol (SDP), die Verschlüsselung und eingehende Bluetooth-Verbindungen.
+
+Bundle ID: com.apple.blued
+Pfad: /usr/sbin/blued
+
+bootpd ⚓︎
+
+In macOS integrierter DHCP/BOOTP/NetBoot-Server. „BOOTP Daemon“ verbindet sich zu Rechnern im lokalen Netzwerk, um IP-Adressen zu vergeben und weitere Aufgaben auszuführen.
+
+Bundle ID: com.apple.bootpd
+Pfad: /usr/libexec/bootpd
+
+CalendarAgent ⚓︎
+
+Systemprozess, synchronisiert Kalender der Kalender-App (genannt iCal vor macOS 10.8) und Erinnerungen zu iCloud und anderen Servern.
+
+Bundle ID: com.apple.CalendarAgent
+Pfad: /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+
+CallHistoryPluginHelper ⚓︎
+
+Speichert Telefon- und Facetime-Anrufe, die der Mac empfängt und durchführt.
+
+Bundle ID: com.apple.CallHistoryPluginHelper
+Pfad: /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+
+CallHistorySyncHelper ⚓︎
+
+Synchronisiert die Anrufdaten (siehe CallHistoryPluginHelper) zwischen Geräten mit derselben Apple-ID.
+
+Bundle ID: com.apple.CallHistorySyncHelper
+Pfad: /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+
+callservicesd ⚓︎
+
+„Call Service Daemon“ ist ein Systemprozess und kommuniziert mit dem iPhone, während am Computer ein Telefongespräch geführt wird.
+
+Bundle ID: com.apple.telephonyutilities.callservicesd
+Pfad: /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+
+Captive Network Assistant ⚓︎
+
+Systemprozess, wird beim Herstellen einer Verbindung zu einem öffentlichen WLAN verwendet. Der Prozess stellt testweise Verbindungen zu unterschiedlichen Servern her, um zu überprüfen, ob eine Verbindung zum Internet besteht.
+
+Bundle ID: com.apple.CaptiveNetworkAssistant
+Pfad: /System/Library/CoreServices/Captive Network Assistant.app/Contents/MacOS/Captive Network Assistant
+
+captiveagent ⚓︎
+
+Verbindet sich als Teil des „Captive Network Assistants“ zu captive.apple.com, um das etwaige Vorhandensein eines Captive-Portals zu erkennen.
+
+Bundle ID: com.apple.captiveagent
+Pfad: /usr/libexec/captiveagent
+
+cdpd ⚓︎
+
+Funktion unklar, steht im Zusammenhang mit dem Schlüsselbund.
+
+Bundle ID: com.apple.cdpd
+Pfad: /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+
+CFNetworkAgent ⚓︎
+
+CFNetwork ist ein Framework des Systems, das zur Netzwerkkommunikation dient. Derzeit ist bekannt, dass sich der Prozess zu guzzoni.apple.com:443 und configuration.apple.com:80 verbindet. Verbindungsanfragen werden unter anderem vom macOS-Diktierdienst und Siri veranlasst.
+
+Bundle ID: com.apple.cfnetwork.cfnetworkagent
+Pfad: /System/Library/Frameworks/CFNetwork.framework/Versions/A/Support/CFNetworkAgent
+
+cfprefsd ⚓︎
+
+Hintergrund-Prozess, der Anwendungen den Zugriff auf Voreinstellungen via die CFPreferences- und NSUserDefaults-API erlaubt. Ändert man Plist-Dateien nicht mit dem Befehl „defaults write“, sondern mit einem Texteditor, muss man meist den Dienst beenden, damit Anwendungen die Plist-Dateien neu einlesen, statt sie aus dem Cache zu beziehen.
+
+Bundle ID: com.apple.cfprefsd.xpc.daemon
+Pfad: /usr/sbin/cfprefsd
+
+check_afp ⚓︎
+
+Systemprozess, der beim Verbinden zu AFP-(Apple Filing Protocol)- Netzwerkfreigaben verwendet wird.
+
+Bundle ID: com.apple.check_afp
+Pfad: /System/Library/Filesystems/AppleShare/check_afp.app/Contents/MacOS/check_afp
+
+cloudd ⚓︎
+
+Der „CloudKit Daemon“ ist Teil von Apples iCloud-Diensten. Der Cloud Daemon verbindet sich zu Apple- und iCloud-Domains, um Daten, wie in den Systemeinstellungen konfiguriert, mit iCloud zu synchronisieren. Cloudd ist zum Beispiel für das Synchronisieren des Safari-Verlaufs und der iCloud-Tabs verantwortlich.
+
+Bundle ID: com.apple.cloudd
+Pfad: /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+
+CloudKeychainProxy ⚓︎
+
+Unterstützt die Kommunikation mit den iCloud-Keychain-Stores auf Apples Servern, um den Schlüsselbund über mehrere Geräte synchron zu halten.
+
+Bundle ID: com.apple.security.cloudkeychainproxy3
+Pfad: /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+
+cloudpaird ⚓︎
+
+Registriert über iCloud verbundene Geräte für Handoff und Continuity. Überwacht dazu auch den Bluetooth-Controller.
+
+Bundle ID: com.apple.cloudpaird
+Pfad: /System/Library/CoreServices/cloudpaird
+
+cloudphotosd ⚓︎
+
+Der „Cloud Photos Daemon“ ist ein Systemprozess und Bestandteil von Apple Fotos, welcher den Zugriff auf Ihren persönlichen iCloud-Fotostream sowie Ihre geteilten Fotostreams ermöglicht. iCloud-Dienste von Apple können dabei auf Cloud-Services von Amazon und Microsoft zurückgreifen.
+
+Bundle ID: com.apple.cloudphotosd
+Pfad: /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+
+CMFSyncAgent ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.cmfsyncagent
+Pfad: /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent.app/Contents/MacOS/CMFSyncAgent
+
+com.apple.AccountPolicyHelper ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.AccountPolicyHelper
+Pfad: /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+
+com.apple.AddressBook.FaceTimeService ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.AddressBook.FaceTimeService
+Pfad: /System/Library/Frameworks/AddressBook.framework/Versions/A/XPCServices/com.apple.AddressBook.FaceTimeService.xpc/Contents/MacOS/com.apple.AddressBook.FaceTimeService
+
+com.apple.AmbientDisplayAgent ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.AmbientDisplayAgent
+Pfad: /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+
+com.apple.appstore.PluginXPCService ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.appstore.PluginXPCService
+Pfad: /System/Library/PrivateFrameworks/StoreXPCServices.framework/Versions/A/XPCServices/com.apple.appstore.PluginXPCService.xpc/Contents/MacOS/com.apple.appstore.PluginXPCService
+
+com.apple.audio.ComponentHelper ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.audio.ComponentHelper
+Pfad: /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.ComponentHelper.xpc/Contents/MacOS/com.apple.audio.ComponentHelper
+
+com.apple.audio.DriverHelper ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.audio.DriverHelper
+Pfad: /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+
+com.apple.audio.SandboxHelper ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.audio.SandboxHelper
+Pfad: /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+
+com.apple.BKAgentService ⚓︎
+
+Funktion unklar, sorgt dem Anschein nach für die Synchronisation der iBooks-Mediathek per iCloud.
+
+Bundle ID: com.apple.BKAgentService
+Pfad: /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+
+com.apple.CharacterPicker.FileService ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.CharacterPicker.FileService
+Pfad: /System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/XPCServices/com.apple.CharacterPicker.FileService.xpc/Contents/MacOS/com.apple.CharacterPicker.FileService
+
+com.apple.CloudPhotosConfiguration ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.CloudPhotosConfiguration
+Pfad: /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+
+com.apple.cmio.registerassistantservice ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.cmio.registerassistantservice
+Pfad: /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+
+com.apple.CodeSigningHelper ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.CodeSigningHelper
+Pfad: /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+
+com.apple.CommerceKit.TransactionService ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.CommerceKit.TransactionService
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+
+com.apple.ctkpcscd ⚓︎
+
+Funktion unklar. com.apple.ctkpcscd ist ein Unterprozess von securityd und könnte etwas mit der Authentifizierung via SmartCards zu tun haben.
+
+Bundle ID: com.apple.ctkpcscd
+Pfad: /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+
+com.apple.DictionaryServiceHelper ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.DictionaryServiceHelper
+Pfad: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+
+com.apple.dock.extra ⚓︎
+
+Hilfsprozess für das Dock.
+
+Bundle ID: com.apple.dock.extra
+Pfad: /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+
+com.apple.foundation.UserScriptService ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.foundation.UserScriptService
+Pfad: /System/Library/Frameworks/Foundation.framework/Versions/C/XPCServices/com.apple.foundation.UserScriptService.xpc/Contents/MacOS/com.apple.foundation.UserScriptService
+
+com.apple.geod ⚓︎
+
+Der „Geo Daemon“ ist ein Systemprozess, der sich zu Apple-Servern verbindet, um geographische Koordinaten in lesbare Adressen zu übersetzen.
+
+Bundle ID: com.apple.geod
+Pfad: /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+
+com.apple.GSSCred ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.GSSCred
+Pfad: /System/Library/Frameworks/GSS.framework/Helpers/com.apple.GSSCred
+
+com.apple.hiservices-xpcservice ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.hiservices-xpcservice
+Pfad: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+
+com.apple.iCloudHelper ⚓︎
+
+Der „iCloud Helper“ wird verwendet, um Daten für die iCloud-Systemeinstellungen von macOS zu laden.
+
+Bundle ID: com.apple.iCloudHelper
+Pfad: /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+
+com.apple.ifdreader ⚓︎
+
+Funktion unklar. com.apple.ifdreader hat vermutlich etwas mit der Authentifizierung via SmartCards zu tun.
+
+Bundle ID: com.apple.ifdreader
+Pfad: /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+
+com.apple.MailServiceAgent.xpc ⚓︎
+
+Der „Mail Service Agent“ ist ein Systemprozess, der E-Mail-Hinweise für Kalenderereignisse versendet.
+
+Bundle ID: com.apple.MailServiceAgent
+Pfad: /System/Library/PrivateFrameworks/MailService.framework/Versions/A/XPCServices/com.apple.MailServiceAgent.xpc
+
+com.apple.MediaLibraryService ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.MediaLibraryService
+Pfad: /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Contents/MacOS/com.apple.MediaLibraryService
+
+com.apple.ncplugin.stocks ⚓︎
+
+Ein von Apple bereitgestelltes Widget für die Mitteilungszentrale, welches aktuelle Informationen von Aktienmärkten anzeigt. Das Widget verbindet sich zu Yahoo Finance und anderen Quellen, um aktuelle Daten zu laden.
+
+Bundle ID: com.apple.ncplugin.stocks
+Pfad: /System/Library/CoreServices/Stocks.app/Contents/PlugIns/com.apple.ncplugin.stocks.appex/Contents/MacOS/com.apple.ncplugin.stocks
+
+com.apple.ncplugin.weather ⚓︎
+
+Ein von Apple bereitgestelltes Widget für die Mitteilungszentrale, welches detaillierte Wetterinformationen anzeigt. Das Widget verbindet sich zu unterschiedlichen Quellen (Yahoo Weather, Weather Underground, …), um aktuelle Wetterdaten zu laden.
+
+Bundle ID: com.apple.ncplugin.weather
+Pfad: /System/Library/CoreServices/Weather.app/Contents/PlugIns/com.apple.ncplugin.weather.appex/Contents/MacOS/com.apple.ncplugin.weather
+
+com.apple.notificationcenterui.WeatherSummary ⚓︎
+
+Für die textliche Zusammenfassung der Wetteraussichten im Heute-Widget der Mitteilungszentrale zuständig.
+
+Bundle ID: com.apple.notificationcenterui.WeatherSummary
+Pfad: /System/Library/CoreServices/NotificationCenter.app/Contents/XPCServices/com.apple.notificationcenterui.WeatherSummary.xpc/Contents/MacOS/com.apple.notificationcenterui.WeatherSummary
+
+com.apple.PerformanceAnalysis.animationperfd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.PerformanceAnalysis.animationperfd
+Pfad: /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+
+com.apple.PhotoIngestService ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.PhotoIngestService
+Pfad: /System/Library/PrivateFrameworks/PhotoLibrary.framework/Versions/A/XPCServices/com.apple.PhotoIngestService.xpc/Contents/MacOS/com.apple.PhotoIngestService
+
+com.apple.photomodel ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.photomodel
+Pfad: /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomodel.xpc/Contents/MacOS/com.apple.photomodel
+
+com.apple.photomoments ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.photomoments
+Pfad: /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments
+
+com.apple.photos.ImageConversionService ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.photos.ImageConversionService
+Pfad: /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/MediaConversionService.framework/Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/MacOS/com.apple.photos.ImageConversionService
+
+com.apple.preference.universalaccess.remoteservice ⚓︎
+
+Hilfsprozess von universalaccessd, der aktiv ist, wenn die Systemeinstellung „Bedienungshilfen“ geöffnet ist.
+
+Bundle ID: com.apple.preference.universalaccess.remoteservice
+Pfad: /System/Library/PreferencePanes/UniversalAccessPref.prefPane/Contents/XPCServices/com.apple.preference.universalaccess.remoteservice.xpc/Contents/MacOS/com.apple.preference.universalaccess.remoteservice
+
+com.apple.qtkitserver ⚓︎
+
+Systemdienst, der Videos und andere Multimediadaten für Apps decodiert.
+
+Bundle ID: com.apple.qtkitserver
+Pfad: /System/Library/Frameworks/QTKit.framework/Versions/A/XPCServices/com.apple.qtkitserver.xpc/Contents/MacOS/com.apple.qtkitserver
+
+com.apple.quicklook.ThumbnailsAgent ⚓︎
+
+Unterstützt quicklookd beim Anlegen und Verwalten von Thumbnails in einer Datenbank.
+
+Bundle ID: com.apple.quicklook.ThumbnailsAgent
+Pfad: /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+
+com.apple.Safari.History ⚓︎
+
+Unterstützt Safari in der Sandbox beim Verwalten der Verlaufs-Datenbank.
+
+Bundle ID: com.apple.Safari.History
+Pfad: /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+
+com.apple.Safari.ImageDecoder ⚓︎
+
+Unterstützt Safari in der Sandbox beim Dekodieren von Bilddateien.
+
+Bundle ID: com.apple.Safari.ImageDecoder
+Pfad: /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.ImageDecoder.xpc/Contents/MacOS/com.apple.Safari.ImageDecoder
+
+com.apple.Safari.SafeBrowsing.Service ⚓︎
+
+Safari unterstützt Googles Safe-Browsing-Service zur Identifizierung von Webseiten mit möglichen Sicherheitsrisiken. Bevor eine Seite von Safari geladen wird, wird diese auf mögliche vorhandene Sicherheitshinweise in der Safe-Browsing-Datenbank überprüft. Diese liegt in einem Unterordner namens „com.apple.Safari.SafeBrowsing“ innerhalb von /private/var/folders und wird regelmäßig über Googles Server aktualisiert. Siehe auch unseren Tipp: //heise.de/-3651016:Wie Sie Safaris Betrugswarnung reparieren
+
+Bundle ID: com.apple.Safari.SafeBrowsing.Service
+Pfad: /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+
+com.apple.Safari.SearchHelper ⚓︎
+
+Verbindet sich mit der in Safari eingestellten Suchmaschine, um Suchvorschläge abzufragen.
+
+Bundle ID: com.apple.Safari.SearchHelper
+Pfad: /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+
+com.apple.sbd ⚓︎
+
+Der „SecureBackupDaemon“ ist eine Komponente der iCloud-Schlüsselbund-Synchronisation. Er kommuniziert mit den Escrow-Servern, die verschlüsselte Kopien der Keychain-Einträge speichern.
+
+Bundle ID: com.apple.sbd
+Pfad: /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+
+com.apple.spotlight.IndexAgent ⚓︎
+
+Unterstützt Spotlight beim Indexieren von Dateien.
+
+Bundle ID: com.apple.spotlight.IndexAgent
+Pfad: /System/Library/PrivateFrameworks/CoreSpotlight.framework/Support/com.apple.spotlight.IndexAgent
+
+com.apple.tonelibraryd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.tonelibraryd
+Pfad: /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd
+
+com.apple.WeatherKitService ⚓︎
+
+Systemprozess, der sich zu verschiedenen Wetterdiensten (Yahoo, Wunderground, …) verbindet, um Wetterinformationen für zukünftige Kalender-Einträge abzufragen.
+
+Bundle ID: com.apple.WeatherKitService
+Pfad: /System/Library/PrivateFrameworks/WeatherKit.framework/Versions/A/XPCServices/com.apple.WeatherKitService.xpc/Contents/MacOS/com.apple.WeatherKitService
+
+com.apple.WebKit.Networking ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.WebKit.Networking
+Pfad: /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+
+com.apple.WebKit.Plugin.64 ⚓︎
+
+Wird von WebKit (z.B. Safari) verwendet, um Plug-ins (z.B. Flash) laufen zu lassen. (Auch in einer 32-Bit-Version vorhanden.)
+
+Bundle ID: com.apple.WebKit.Plugin.64
+Pfad: /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Plugin.64.xpc/Contents/MacOS/com.apple.WebKit.Plugin.64
+
+com.apple.WebKit.WebContent ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.WebKit.WebContent
+Pfad: /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+
+configd ⚓︎
+
+Der „System Configuration Daemon“ ist Teil von macOS. Er ist für die Verwaltung der dynamischen Konfiguration des Systems und dazugehörigen Komponenten, wie z.B. Netzwerk, verantwortlich.
+
+Bundle ID: com.apple.configd
+Pfad: /usr/libexec/configd
+
+ContactsAccountsService ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.AddressBook.ContactsAccountsService
+Pfad: /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+
+ContactsAgent ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.ContactsAgent
+Pfad: /System/Library/PrivateFrameworks/ContactsAgent.framework/Executables/ContactsAgent
+
+ContainerMetadataExtractor ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.CloudDocsDaemon.container-metadata-extractor
+Pfad: /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+
+coreaudiod ⚓︎
+
+Daemon, der für Core Audio verwendet wird, das Framework, das grundlegend für die Tonwiedergabe von macOS ist.
+
+Bundle ID: com.apple.audio.coreaudiod
+Pfad: /usr/sbin/coreaudiod
+
+coreauthd ⚓︎
+
+Deamon, der Anwendungen die Abfrage von User-Authorisierungen ermöglicht. Apps können so den Benutzer zum Beispiel auffordern, sich mit TouchID zu authorisieren.
+
+Bundle ID: com.apple.CoreAuthentication.daemon
+Pfad: /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+
+corebrightnessd ⚓︎
+
+Der „Core Brightness Daemon“ regelt die Anpassung der Display-Farben mittles Night Shift.
+
+Bundle ID: com.apple.corebrightnessd
+Pfad: /usr/libexec/corebrightnessd
+
+corecaptured ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.corecaptured
+Pfad: /usr/libexec/corecaptured
+
+coreduetd ⚓︎
+
+Bestandteil der Continuity-Funktion „Handoff“.
+
+Bundle ID: com.apple.coreduetd.osx
+Pfad: /usr/libexec/coreduetd
+
+CoreLocationAgent ⚓︎
+
+Ermittelt den aktuellen Standort des Geräts und holt die Bestätigung des Benutzer ein, falls eine Anwendung den Standort abfragt.
+
+Bundle ID: com.apple.CoreLocationAgent
+Pfad: /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+
+coreservicesd ⚓︎
+
+Erlaubt Anwendungen den Zugriff auf diverse CoreServices-APIs wie die LaunchServices, Core Audio oder den „Gestalt Manager“.
+
+Bundle ID: com.apple.coreservicesd
+Pfad: /System/Library/CoreServices/coreservicesd
+
+CoreServicesUIAgent ⚓︎
+
+Unterstützt einige CoreServices von macOS. Zeigt unter anderem GUI-Dialoge für Gatekeeper.
+
+Bundle ID: com.apple.coreservices.uiagent
+Pfad: /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+
+corestoraged ⚓︎
+
+Hilft dem Betriebssystem beim Bündeln von Laufwerken und Partitionen in logische Volumes à la FusionDrive.
+
+Bundle ID: com.apple.corestorage.corestoraged
+Pfad: /usr/libexec/corestoraged
+
+corestoragehelperd ⚓︎
+
+Unterstützt corestoraged.
+
+Bundle ID: com.apple.corestorage.corestoragehelperd
+Pfad: /usr/libexec/corestoragehelperd
+
+coresymbolicationd ⚓︎
+
+Verwaltet den Symbol-Cache von macOS-Libraries, damit diese schneller gelinkt werden können. Die Inhalte kann man mit symbolscache list im Terminal anzeigen.
+
+Bundle ID: com.apple.coresymbolicationd
+Pfad: /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+
+CrashReporterSupportHelper ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Prozesse im Ordner „CoreServices“ sind essenzieller Bestandteil von macOS. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.CrashReporterSupportHelper
+Pfad: /System/Library/CoreServices/CrashReporterSupportHelper
+
+ctkahp ⚓︎
+
+Teil des CryptoTokenKit-Framework für die Nutzung von SmartCards.
+
+Bundle ID: com.apple.ctkahp
+Pfad: /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+
+ctkd ⚓︎
+
+Erlaubt den Zugriff auf das Framework CryptoTokenKit, das die Nutzung von SmartCards ermöglicht.
+
+Bundle ID: com.apple.ctkd
+Pfad: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+
+cupsd ⚓︎
+
+Steuerprogramm für CUPS (Common Unix Printing System), dem Unix-System für Drucker, das auf dem Internet Printing Protocol (IPP) basiert. Der Standardport für IPP ist 631.
+
+Bundle ID: org.cups.cupsd
+Pfad: /usr/sbin/cupsd
+
+curl ⚓︎
+
+Kommandozeilen-Programm zum Übertragen von Daten über viele verschiedene Protokolle. cURL versteht die sogenannte „URL Syntax“.
+
+Pfad: /usr/bin/curl
+
+CVMCompiler ⚓︎
+
+Der „Core Virtual Machine Compiler“ ermöglicht das Ausführen von OpenGL-Code.
+
+Bundle ID: com.apple.cvmsCompAgent_i386
+Pfad: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMCompiler
+
+CVMServer ⚓︎
+
+Der „Core Virtual Machine Server“ unterstützt macOS beim Kompilieren von OpenGL-Code.
+
+Bundle ID: com.apple.cvmsServ
+Pfad: /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+
+D bis M
+DashboardClient ⚓︎
+
+Systemprozess, der alle Dashboard-Widgets von macOS beheimatet. Das Programm selbst benötigt keine Internetverbindung, allerdings ist es möglich, dass einige Widgets zur Erfüllung ihrer Aufgaben eine Verbindung nach Außen aufbauen müssen.
+
+Bundle ID: com.apple.dashboard.client
+Pfad: /System/Library/CoreServices/Dock.app/Contents/Resources/DashboardClient.app/Contents/MacOS/DashboardClient
+
+DataclassOwnersManager ⚓︎
+
+Interner Service, der bei der Verwaltung der Accounts-Datenbank unterstützt.
+
+Bundle ID: com.apple.accounts.dom
+Pfad: /System/Library/PrivateFrameworks/AccountsDaemon.framework/XPCServices/DataclassOwnersManager.xpc/Contents/MacOS/DataclassOwnersManager
+
+DataDetectorsActionService ⚓︎
+
+Systemprozess, der versucht, E-Mails und Kurznachrichten zu interpretieren, um Informationen wie Telefonnummern oder Adressen zu extrahieren. Er kann dabei auch eine Karten-Miniaturansicht erstellen und verbindet sich dazu mit Servern von Apple.
+
+Bundle ID: com.apple.DataDetectors.DataDetectorsActionService
+Pfad: /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/XPCServices/DataDetectorsActionService.xpc/Contents/MacOS/DataDetectorsActionService
+
+deleted ⚓︎
+
+Kümmert sich ums Löschen von temporären Cache-Dateien, die das System für Dienste wie iCloud, Quicklook und Spotlight benötigt. Gesteuert wird der Daemon über Plist-Dateien wie die in /System/Library/CacheDelete/.
+
+Bundle ID: com.apple.cache_delete
+Pfad: /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+
+diagnosticd ⚓︎
+
+Der „Diagnostic Daemon“ unterstützt unter anderem das mit macOS 10.10 eingeführte Activity-Tracing (Debugging).
+
+Bundle ID: com.apple.diagnosticd
+Pfad: /usr/libexec/diagnosticd
+
+diagnostics_agent ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Prozesse im Ordner „CoreServices“ sind essenzieller Bestandteil von macOS. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.diagnostics_agent
+Pfad: /System/Library/CoreServices/diagnostics_agent
+
+dig ⚓︎
+
+(Domain Information Groper), ein Tool für die Befehlszeile, um bei einem DNS-Server alle Informationen zu einer bestimmten Domain zu erfragen. Üblicherweise verwendet dig den voreingestellten DNS-Server, zur Verfügung gestellt von Ihrem Internetanbieter.
+
+Pfad: /usr/bin/dig
+
+dirhelper ⚓︎
+
+Mit dem „Helper for Special Directory Creation“ erzeugt macOS spezielle Ordner auch an Orten, für die normale Benutzer keine Schreibrechte besitzen.
+
+Bundle ID: com.apple.bsd.dirhelper
+Pfad: /usr/libexec/dirhelper
+
+diskarbitrationd ⚓︎
+
+Der „Disk Arbitration Daemon“ aktiviert automatisch die Volumes auf angeschlossenen Festplatten und Wechselmedien.
+
+Bundle ID: com.apple.diskarbitrationd
+Pfad: /usr/libexec/diskarbitrationd
+
+diskmanagementd ⚓︎
+
+Der „DiskManagement.framework Server“ ist das Back-End für das DiskManagement-Framework. Dieses stellt Funktionen bereit, um zum Beispiel Datenträger zu partitionieren oder zu löschen. Wird nur bei Bedarf gestartet.
+
+Bundle ID: com.apple.diskmanagementd
+Pfad: /usr/libexec/diskmanagementd
+
+DiskUnmountWatcher ⚓︎
+
+Überwacht externe Laufwerke und weist per Mitteilung auf möglichen Datenverlust hin, wenn der Anwender ein Laufwerk einfach vom Mac trennt statt es zuvor auszuwerfen.
+
+Bundle ID: com.apple.security.DiskUnmountWatcher
+Pfad: /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+
+distnoted ⚓︎
+
+Der „Distributed Notification Server“ schickt Nachrichten an Prozesse.
+
+Bundle ID: com.apple.distnoted.xpc.agent
+Pfad: /usr/sbin/distnoted
+
+Dock ⚓︎
+
+Stellt das Dock bereit.
+
+Bundle ID: com.apple.dock
+Pfad: /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+
+dpd ⚓︎
+
+„Display Port Daemon“ ist für den Target-Display-Modus zuständig, der sich per Cmd+F2 aktivieren lässt.
+
+Bundle ID: com.apple.dpd
+Pfad: /usr/libexec/dpd
+
+DuetHeuristic-BM ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.DuetHeuristic-BM-OSX
+Pfad: /usr/libexec/DuetHeuristic-BM
+
+EscrowSecurityAlert ⚓︎
+
+Hilft beim Synchonisieren mit den iCloud-Keychain-Servern.
+
+Bundle ID: com.apple.EscrowSecurityAlert
+Pfad: /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+
+familycircled ⚓︎
+
+Verwaltet die iCloud-Familienfreigabe, etwa wenn neue Mitglieder hinzugefügt werden sollen.
+
+Bundle ID: com.apple.familycircled
+Pfad: /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+
+FDERecoveryAgent ⚓︎
+
+„FileVault Disk Encryption Recovery Agent“ kommuniziert mit Apple-Servern, falls FileVault mit der Option eingerichtet wurde, den Wiederherstellungsschlüssel bei Apple zu speichern.
+
+Bundle ID: com.apple.security.FDERecoveryAgent
+Pfad: /usr/libexec/FDERecoveryAgent
+
+Feedback Assistant ⚓︎
+
+Programm, das auf Beta-Versionen von macOS vorinstalliert ist. Es erlaubt es auch Nicht-Entwicklern, Apple Rückmeldungen über das neue System zu geben. Der Feedback-Assistent verbindet sich zu Apple-Servern, um die Login-Daten sowie den Status Ihres Accounts zu überprüfen. Zusätzlich ist der Feedback-Assistent für die Übertragung des Feedbacks zuständig.
+
+Bundle ID: com.apple.appleseed.FeedbackAssistant
+Pfad: /System/Library/CoreServices/Applications/Feedback Assistant.app/Contents/MacOS/Feedback Assistant
+
+filecoordinationd ⚓︎
+
+Der „File Coordination Daemon“ koordiniert Dateizugriffe zwischen Prozessen, um Funktionen wie „Automatisch sichern“ und „Versionen“ zu ermöglichen.
+
+Bundle ID: com.apple.FileCoordination
+Pfad: /usr/sbin/filecoordinationd
+
+Finder ⚓︎
+
+Die grafische Bedienoberfläche, die u. a. den Zugriff auf das Dateisystem Ihres Macs ermöglicht.
+
+Bundle ID: com.apple.Finder
+Pfad: /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+
+findmydeviced ⚓︎
+
+Setzt die Funktion „Meinen Mac suchen“ aus den iCloud-Systemeinstellungen um.
+
+Bundle ID: com.apple.icloud.findmydeviced
+Pfad: /usr/libexec/findmydeviced
+
+FindMyMacd ⚓︎
+
+Sorgt unter anderem dafür, dass die Festplatte eines entfernten Macs aus der Ferne gelöscht werden kann. Gehört auch zur Funktion „Meinen Mac suchen“.
+
+Bundle ID: com.apple.findmymac
+Pfad: /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+
+fmfd ⚓︎
+
+Der fmfd dient dem „Find My Friends“-Service von Apple.
+
+Bundle ID: com.apple.icloud.fmfd
+Pfad: /usr/libexec/fmfd
+
+FolderActionsDispatcher ⚓︎
+
+Hintergrundprozess, der für die Ordneraktionen zuständig ist.
+
+Bundle ID: com.apple.FolderActionsDispatcher
+Pfad: /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher
+
+followupd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.followupd
+Pfad: /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+
+fontd ⚓︎
+
+Der Daemon, bei dem Fonts (Zeichensätze) registriert werden müssen.
+
+Bundle ID: com.apple.fontd
+Pfad: /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+
+fseventsd ⚓︎
+
+Überwacht das Dateisystem auf Änderungen und schreibt diese in eine Datenbank. Ermöglicht unter anderem Time Machine, geänderte Dateien zu sichern, ohne wiederholt das gesamte Volume scannen und mit dem Backup vergleichen zu müssen.
+
+Bundle ID: com.apple.fseventsd
+Pfad: /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+
+gamed ⚓︎
+
+Der „Game Daemon“ ist Teil von Apples Game-Center, einem sozialen Netzwerk für Spiele. Er verbindet sich zu vielen verschiedenen Servern, um Spielerprofile und Informationen zu Spielen anzuzeigen.
+
+Bundle ID: com.apple.gamed
+Pfad: /System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed
+
+geod ⚓︎
+
+Apples Geo-Daten-Server. Unterstützt zum Beispiel die Karten-App bei der Auflösung von Ortsdaten. Kann zusätzlich auch Telefonnummern Vorwahlbereichen zuordnen.
+
+Bundle ID: com.apple.geod
+Pfad: /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+
+geodMachServiceBridge ⚓︎
+
+Hilfsprozess von geod, vermutlich zur Kommunikation mit dem Mach-Kernel.
+
+Bundle ID: com.apple.geodMachServiceBridge
+Pfad: /System/Library/PrivateFrameworks/GeoServices.framework/geodMachServiceBridge
+
+gssd ⚓︎
+
+Der „Generic Security Services Daemon“ gewährt dem Kernel Zugriff auf die Generic Security Services API (GSS-API).
+
+Bundle ID: com.apple.gssd
+Pfad: /usr/sbin/gssd
+
+hdieject ⚓︎
+
+Ermöglicht dem System, Disk-Images auszuwerfen.
+
+Bundle ID: com.apple.DiskImagesFramework
+Pfad: /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/Resources/hdiejectd
+
+helpd ⚓︎
+
+Lädt dynamische Inhalte für Apples Hilfe-Zentrum.
+
+Bundle ID: com.apple.helpd
+Pfad: /System/Library/PrivateFrameworks/HelpData.framework/Versions/A/Resources/helpd
+
+HelpViewer ⚓︎
+
+Programm zum Anzeigen von Hilfe und Dokumentation zu macOS und Apple-Programmen. Bei manchen Programmen werden die Dateien für die Hilfe mitgeliefert, andere laden diese aus dem Internet. Um die Hilfe für die meisten Apple-Programme anzeigen zu können, muss sich das Hilfe-Zentrum zu den Servern von Apple verbinden.
+
+Bundle ID: com.apple.helpviewer
+Pfad: /System/Library/CoreServices/HelpViewer.app/Contents/MacOS/HelpViewer
+
+hidd ⚓︎
+
+Der „Human Interface Device Daemon“ stellt sicher, dass von Eingabegeräten wie Maus und Tastatur erzeugte Events ohne Verzögerung behandelt werden können.
+
+Bundle ID: com.apple.hidd
+Pfad: /usr/libexec/hidd
+
+host ⚓︎
+
+host wird für DNS-Lookups verwendet. Es kann Hostnamen in IP-Adressen und umgekehrt konvertieren.
+
+Pfad: /usr/bin/host
+
+httpd ⚓︎
+
+Der Apache „HTTP Daemon“ behandelt eingehende Web-Anfragen und stellt den Apache Webserver bereit.
+
+Bundle ID: org.apache.httpd
+Pfad: /usr/sbin/httpd
+
+icdd ⚓︎
+
+Der „Image Capture Device Discovery Daemon“ erkennt angeschlossene Geräte wie Kameras und Scanner.
+
+Bundle ID: com.apple.icdd
+Pfad: /System/Library/Image Capture/Support/icdd
+
+icloudsyncd ⚓︎
+
+Achtung: Hinter dem Prozess verbirgt sich die Malware OSX/Keydnap, die versucht, Passwörter aus der iCloud-Keychain zu stehlen. Keydnap wurde über einen manipulierten Download der App Transmission verbreitet. Siehe auch: Keydnap: Mac-Malware will Passwörter aus Schlüsselbund klauen
+
+Pfad: /Library/Application Support/com.apple.iCloud.sync.daemon/icloudsyncd
+
+iconservicesagent ⚓︎
+
+Holt die für die Bildschirmdarstellung benötigten Bildinformationen aus den Icon-Ressourcen eines Programm-Bundles.
+
+Bundle ID: com.apple.iconservices.iconservicesagent
+Pfad: /System/Library/CoreServices/iconservicesagent
+
+iconservicesd ⚓︎
+
+Verwaltet den systemweiten Icon-Cache.
+
+Bundle ID: com.apple.iconservices.iconservicesd
+Pfad: /System/Library/CoreServices/iconservicesd
+
+identityservicesd ⚓︎
+
+„Identity Services Daemon“ ist ein Systemprozess und kümmert sich um Anmeldedaten für verschiedene Services, wie z.B. iCloud und iMessage. Er verbindet sich auch zu Computern und iOS-Geräten im lokalen Netzwerk, um Telefonanrufe zwischen unterschiedlichen Geräten zu koordinieren.
+
+Bundle ID: com.apple.identityservicesd
+Pfad: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+
+imagent ⚓︎
+
+Teil der Nachrichten-App von Apple (ehemals iChat) und kümmert sich unter anderem um die SMS-Weiterleitung zwischen iOS und macOS.
+
+Bundle ID: com.apple.imagent
+Pfad: /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+
+IMDMessageServicesAgent ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.imdmessageservices.IMDMessageServicesAgent
+Pfad: /System/Library/PrivateFrameworks/IMDMessageServices.framework/XPCServices/IMDMessageServicesAgent.xpc/Contents/MacOS/IMDMessageServicesAgent
+
+IMDPersistenceAgent ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.imdpersistence.IMDPersistenceAgent
+Pfad: /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+
+imklaunchagent ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.imklaunchagent
+Pfad: /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+
+IMRemoteURLConnectionAgent ⚓︎
+
+IMRemoteURLConnectionAgent.xpc ist ein Systemprozess und Teil von Apples Nachrichten- beziehungsweise Chatdiensten.
+
+Bundle ID: com.apple.imfoundation.IMRemoteURLConnectionAgent
+Pfad: /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+
+IMServicePlugInAgent ⚓︎
+
+Wird von Instant-Messaging-Programmen (zum Beispiel iChat/Nachrichten) verwendet, um Plug-Ins für weitere Instant-Messaging-Services einbinden zu können, die nicht direkt unterstützt werden.
+
+Bundle ID: com.apple.IMServicePlugInAgent
+Pfad: /System/Library/Frameworks/IMServicePlugIn.framework/IMServicePlugInAgent.app/Contents/MacOS/IMServicePlugInAgent
+
+"IMTransferAgent ⚓︎
+
+Der „Instant Messaging Transfer Service“ ist zuständig für das Senden und Empfangen von Dateien, die mit der Nachrichten-App von macOS geschickt werden.
+
+Server in den Domains icloud.com, amazonaws.com und blob.windows.net werden verwendet, um Medien in iCloud und der Nachrichten-App bereitzustellen.
+
+Bundle ID: com.apple.imtransferservices.IMTransferAgent
+Pfad: /System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app/Contents/MacOS/IMTransferAgent
+
+installd ⚓︎
+
+Hilft beim Auspacken und Entfernen von in Packages (.pkg) verpackten Anwendungen.
+
+Bundle ID: com.apple.installd
+Pfad: /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+
+installerdiagd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.InstallerDiagnostics.installerdiagd
+Pfad: /System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/Resources/installerdiagd
+
+InternetSharing ⚓︎
+
+Verwaltet die Internet-Freigabe.
+
+Bundle ID: com.apple.NetworkSharing
+Pfad: /usr/libexec/InternetSharing
+
+iOSScreenCaptureAssistant ⚓︎
+
+Ermöglicht unter anderem QuickTime, den Bildschirminhalt eines angeschlossenen iOS-Geräts aufzuzeichnen.
+
+Bundle ID: com.apple.cmio.DAL.iOSScreenCapture
+Pfad: /Library/CoreMediaIO/Plug-Ins/DAL/iOSScreenCapture.plugin/Contents/Resources/iOSScreenCaptureAssistant
+
+iTunes ⚓︎
+
+Medien- und iOS-Geräteverwaltung, gehört zu Apples Standardsoftware, die mit jedem Rechner ausgeliefert wird.
+
+Bundle ID: com.apple.iTunes
+Pfad: /Applications/iTunes.app/Contents/MacOS/iTunes
+
+iTunesHelper ⚓︎
+
+Teil von iTunes, überwacht alle verbundenen Geräte und Volumes, um iTunes zu starten, falls ein neu verbundenes Volume ein iPod, iPhone oder iPad ist.
+
+Bundle ID: com.apple.iTunesHelper
+Pfad: /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/Contents/MacOS/iTunesHelper
+
+kdc ⚓︎
+
+Das Heimdal-Framework implementiert das Kerberos-5-Protokoll, welches Mechanismen zur sicheren Authentifizierung von Computern über ein unsicheres Netzwerk bereitstellt. Zur Authentifizierung wird dabei ein dezidierter Authentifizierungs-Server benutzt. Die Adresse des Authentifizierungs-Servers variiert in Abhängigkeit Ihrer Netzwerkeinstellungen.
+
+Bundle ID: com.apple.Kerberos.kdc
+Pfad: /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kdc
+
+kernel_service ⚓︎
+
+Achtung: Persistenter Prozess der Ransomware OSX.KeRanger. KeRanger wurde über einen manipulierten Installer der Transmission-App auf Bit Torrent verbreitet und beginnt drei Tage nach der Installation mit der Verschlüsselung von User-Daten. Siehe auch: Erpressungs-Trojaner KeRanger: Wie Sie Ihren Mac schützen
+
+Pfad: ~/Library/kernel_service
+
+kernel_task ⚓︎
+
+Der Kernel von macOS. Kümmert sich unter anderem um die Temperaturregulierung des Rechners. Sehr hohe CPU-Nutzungs-Werte deuten daher meist auf ein Problem in der Regulierung hin.
+
+
+KernelEventAgent ⚓︎
+
+Hilfsprozess, mit dem der Kernel den Anwender über ein volles System-Volume und nicht reagierende Server-Verbindungen informiert.
+
+Bundle ID: com.apple.KernelEventAgent
+Pfad: /usr/sbin/KernelEventAgent
+
+kextd ⚓︎
+
+Startet und beendet mit Hilfe von launchd Kernel-Extensions.
+
+Bundle ID: com.apple.kextd
+Pfad: /usr/libexec/kextd
+
+keyboardservicesd ⚓︎
+
+Der KeyboardServices-Daemon adressiert die lokale Datenbank zur Textersetzung und verbindet sich zu configuration.apple.com.
+
+Bundle ID: com.apple.keyboardservicesd
+Pfad: /usr/libexec/keyboardservicesd
+
+Keychain Circle Notification ⚓︎
+
+Fragt den Anwender um Erlaubnis, wenn ein weiteres Gerät auf den iCloud-Schlüsselbund zugreifen möchte.
+
+Bundle ID: com.apple.security.Keychain-Circle-Notification
+Pfad: /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+
+KeychainSyncingOverIDSProxy ⚓︎
+
+Zur Funktion dieses Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.security.keychainsyncingoveridsproxy
+Pfad: /System/Library/Frameworks/Security.framework/Versions/A/Resources/KeychainSyncingOverIDSProxy.bundle/Contents/MacOS/KeychainSyncingOverIDSProxy
+
+LaterAgent ⚓︎
+
+Zeigt Benachrichtigungen für Software-Updates an und fragt, wann diese ausgeführt werden sollen („In einer Stunde?“).
+
+Bundle ID: com.apple.lateragent
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+
+launchd ⚓︎
+
+Der Ur-Prozess, der alle anderen auf den Weg bringt. Wird beim Bootvorgang gestartet und hat die Prozess-ID 1. launchd ist auch dafür verantwortlich, dass Daemons und User-Agents gemäß ihrer Plist-Definition gestartet werden. Siehe auch Teil 2 von macOS intern
+
+Bundle ID: launchd
+Pfad: /sbin/launchd
+
+launchservicesd ⚓︎
+
+Daemon, der die LaunchServices-API umsetzt. Erlaubt Apps etwa das Öffnen von anderen Anwendungen und zugehörigen Dokumenten und kann Dateitypen für bestimmte Apps registrieren.
+
+Bundle ID: com.apple.coreservices.launchservicesd
+Pfad: /System/Library/CoreServices/launchservicesd
+
+locationd ⚓︎
+
+Der Location Daemon wird genutzt, um den derzeitigen Aufenthaltsort zu bestimmen.
+
+Bundle ID: com.apple.locationd
+Pfad: /usr/libexec/locationd
+
+logd ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.logd
+Pfad: /usr/libexec/logd
+
+login ⚓︎
+
+Meldet Benutzer-Accounts auf der Kommandozeile an und kann auch von Programmen wie telnet genutzt werden. login setzt die Umgebung (Environment) des Benutzers, inklusive der Default-Shell und Such-Pfade.
+
+Pfad: /usr/bin/login
+
+logind ⚓︎
+
+Ist für das Management von User-Sessions verantwortlich. Eine Malware (OSX/Tsunami.A) mit demselben Prozessnamen existiert, diese liegt aber unter /usr/sbin/, nicht in /System/Library/CoreServices.
+
+Bundle ID: com.apple.logind
+Pfad: /System/Library/CoreServices/logind
+
+loginitemregisterd ⚓︎
+
+Apps können Anmeldeobjekte enthalten, die direkt im Programm-Bundle enthalten sind. Der „Login Item Registration Daemon“ registriert diese über die LaunchServices.
+
+Bundle ID: com.apple.xpc.loginitemregisterd
+Pfad: /usr/libexec/loginitemregisterd
+
+loginwindow ⚓︎
+
+Stellt das Anmeldefenster bereit und koordiniert verschiedene Aspekte einer Benutzer-Session sowie die Authentifizierung.
+
+Bundle ID: com.apple.loginwindow
+Pfad: /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+
+lpd ⚓︎
+
+Der „Line Printer Daemon“ ist Teil des Drucksystems von macOS (CUPS) und bietet Unterstützung für Netzwerkdrucker, welche das Line-Printer-Daemon-Protokoll voraussetzen.
+
+Bundle ID: org.cups.cups-lpd
+Pfad: /usr/libexec/cups/backend/lpd
+
+lsd ⚓︎
+
+Der LaunchServiceDaemon unterstützt launchd beim Starten von Apps, indem er die zu Dokumenttypen passenden Apps ermittelt.
+
+Bundle ID: com.apple.lsd
+Pfad: /usr/libexec/lsd
+
+mapspushd ⚓︎
+
+Der Maps Push Daemon ist Teil von macOS und verbindet sich zu Apples Ortungsdienst-Servern.
+
+Bundle ID: com.apple.Maps.mapspushd
+Pfad: /System/Library/CoreServices/mapspushd
+
+mdflagwriter ⚓︎
+
+Hilfsprozess von Spotlights Indexierungskomponente.
+
+Bundle ID: com.apple.metadata.mdflagwriter
+Pfad: /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+
+mdmclient ⚓︎
+
+Der „Mobile Device Management Client“ wird intern zur Kommunikation mit dem MDM-Server genutzt. Empfängt Konfigurations-Profile.
+
+Bundle ID: com.apple.mdmclient.daemon
+Pfad: /usr/libexec/mdmclient
+
+mDNSResponder ⚓︎
+
+Die Bonjour-Technik in macOS verwendet den „multicast Domain Name System Responder“, um andere Geräte wie Macs, iOS-Geräte oder Drucker im lokalen Netzwerk zu finden und mit ihnen zu kommunizieren.
+
+Bundle ID: com.apple.mDNSResponder
+Pfad: /usr/sbin/mDNSResponder
+
+mDNSResponderHelper ⚓︎
+
+Der „mDNS Privilege Separation Helper“ ist ein von launchd gestarteter Hilfsprozess für den mDNSResponder Daemon.
+
+Bundle ID: com.apple.mDNSResponderHelper
+Pfad: /usr/sbin/mDNSResponderHelper
+
+mds ⚓︎
+
+Der „Metadata Server“ ist ein Systemprozess, der Metadaten über Dateien verwaltet und diese anderen Prozessen wie Spotlight zur Verfügung stellt.
+
+Bundle ID: com.apple.metadata.mds
+Pfad: /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+
+mds_stores ⚓︎
+
+Hilfsprozess von Spotlights Indexierungskomponente. Verwaltet die Metadaten in so genannten Stores.
+
+Bundle ID: com.apple.metadata.mds.index
+Pfad: /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+
+mdworker ⚓︎
+
+Der „Metadata Server Worker“ wird vom Systemprozess mds („Metadata Server“) verwendet, um Dateien zu indizieren, wenn ein Volume aktiviert oder eine Datei geändert wird.
+
+Bundle ID: com.apple.mdworker
+Pfad: /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+
+mdwrite ⚓︎
+
+Hilfsprozess von Spotlights Indexierungskomponente. Schreibt Metadaten in den passenden Store.
+
+Bundle ID: com.apple.metadata.mdwrite
+Pfad: /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+
+media-indexer ⚓︎
+
+Indexiert für Siri Medieninhalt aus iTunes und ermöglicht Siri damit den schnellen Zugriff auf Interpreten, Genres, Komponisten, Wiedergabelisten und Podcasts. Die Indexdateien liegen im Ordner ~/Library/Containers/com.apple.siri.media-indexer/Data
+
+Bundle ID: com.apple.siri.media-indexer
+Pfad: /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+
+mediaremoteagent ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.mediaremoteagent
+Pfad: /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+
+mediaremoted ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.mediaremoted
+Pfad: /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+
+Messages ⚓︎
+
+Die Nachrichten-App. Gehört zur Standard-Software von macOS.
+
+Bundle ID: com.apple.iChat
+Pfad: /Applications/Messages.app/Contents/MacOS/Messages
+
+mobileassetd ⚓︎
+
+Funktion unklar. Lädt vermutlich auf Anfrage weitere macOS-Inhalte, sogenannte Assets, nach – zum Beispiel Wörterbücher für das Lexikon oder fremdsprachige Fonts.
+
+Bundle ID: com.apple.mobileassetd
+Pfad: /usr/libexec/mobileassetd
+
+mount_url ⚓︎
+
+Verantwortlich für das Aktivieren von WebDAV-Servern und anderen entfernten Volumes, die als URL angegeben werden können.
+
+Bundle ID: com.apple.mount_url
+Pfad: /usr/libexec/mount_url
+
+MTLCompilerService ⚓︎
+
+Ermöglicht den Zugriff auf den Compiler von Metal, Apples Hochgeschwindigkeits-API für GPU-unterstützte Grafik- und Datenberechnungen. Wird von sehr vielen Prozessen genutzt.
+
+Bundle ID: com.apple.MTLCompilerService
+Pfad: /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+
+mtmd ⚓︎
+
+„Mobile Time Machine Snapshot Daemon“, ein Systemprozess und verantwortlich dafür, lokale Sicherungen von Dateien in Echtzeit zu erstellen.
+
+Bundle ID: com.apple.mtmd
+Pfad: /System/Library/CoreServices/backupd.bundle/Contents/Resources/mtmd
+
+N bis Z
+nbagent ⚓︎
+
+Der Noticeboard-Agent ist ein Systemprozess und verbindet sich als Teil von Apples Softwareupdate-Mechanismus zu Servern von Apple.
+
+Bundle ID: com.apple.nbagent
+Pfad: /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+
+nbstated ⚓︎
+
+Noticeboard verbindet sich zu Softwareaktualisierungs-Servern von Apple, um nach neuen Versionen von macOS zu suchen.
+
+Bundle ID: com.apple.noticeboard.state
+Pfad: /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+
+nehelper ⚓︎
+
+Gehört zum Network-Extension-Framework. Diese API-Sammlung kann benutzt werden, um eine Verbindung mit einem VPN-Server herzustellen.
+
+Bundle ID: com.apple.nehelper
+Pfad: /usr/libexec/nehelper
+
+NetAuthSysAgent ⚓︎
+
+Der „Network Authentication System Agent“ ist verantwortlich für Netzwerkanmeldungen.
+
+Bundle ID: com.apple.NetAuthAgent
+Pfad: /System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent
+
+netbiosd ⚓︎
+
+Der „NetBIOS Daemon“ ist verantwortlich für NetBIOS-Netzwerke, meist SMB-Freigaben beziehungsweise -Netzwerke.
+
+Bundle ID: com.apple.netbiosd
+Pfad: /usr/sbin/netbiosd
+
+Network Diagnostics ⚓︎
+
+Netzwerkdiagnose ist ein mit macOS mitgeliefertes Programm zur Diagnose der Netzwerkverbindung des Computers. Um seine Arbeit zu erledigen, baut es einige Verbindungen zum Beispiel zu apple.com oder zum DNS Server auf.
+
+Bundle ID: com.apple.NetworkDiagnostics
+Pfad: /System/Library/CoreServices/Network Diagnostics.app/Contents/MacOS/Network Diagnostics
+
+Network Setup Assistant ⚓︎
+
+Der Netzwerkassistent ist ein macOS-Programm, das Benutzer schrittweise durch die Konfiguration der Netzwerkeinstellungen führt, um eine Verbindung zum Internet herzustellen. Nachdem alle nötigen Schritte durchgeführt wurden, versucht sich der Netzwerkassistent mit www.apple.com zu verbinden, um zu testen, ob die Konfiguration erfolgreich war.
+
+Bundle ID: com.apple.NetworkSetupAssistant
+Pfad: /System/Library/CoreServices/Network Setup Assistant.app/Contents/MacOS/Network Setup Assistant
+
+networkd_privileged ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Pfad: /usr/libexec/networkd_privileged
+
+networkserviceproxy ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.networkserviceproxy
+Pfad: /usr/libexec/networkserviceproxy
+
+nfcd ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Pfad: /usr/libexec/nfcd
+
+nfsd ⚓︎
+
+Der „NFS Server Daemon“ wird für NFS-Freigaben (Network File Systems) genutzt.
+
+Bundle ID: com.apple.nfsd
+Pfad: /sbin/nfsd
+
+NotificationCenter ⚓︎
+
+Der Systemprozess für Apples Notification Center.
+
+Bundle ID: com.apple.notificationcenterui
+Pfad: /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+
+notifyd ⚓︎
+
+Über den „Notification Server“ können Prozesse untereinander Nachrichten austauschen.
+
+Bundle ID: com.apple.notifyd
+Pfad: /usr/sbin/notifyd
+
+nsurlsessiond ⚓︎
+
+Der „NSURLSession Daemon“ wird für Uploads und Downloads via HTTP verwendet. Programme können den Daemon mit dem Transfer von Daten beauftragen, wobei der Transfer durch den Daemon sogar nach dem Beenden des delegierenden Programmes fortgesetzt werden kann.
+
+Bundle ID: com.apple.nsurlsessiond
+Pfad: /usr/libexec/nsurlsessiond
+
+nsurlstoraged ⚓︎
+
+„HTTP Network Storage Daemon“ verwaltet für jeden Benutzer unabhängig vom Browser die gespeichert Websitedaten (HTTP storages).
+
+Bundle ID: com.apple.nsurlstoraged
+Pfad: /usr/libexec/nsurlstoraged
+
+ntpd ⚓︎
+
+Der Network Time Protocol Daemon ist ein Systemprozess, der die Uhr Ihres Computers mit einem Netzwerk-Zeitserver synchronisiert.
+
+Bundle ID: org.ntp.ntpd
+Pfad: /usr/sbin/ntpd
+
+ocspd ⚓︎
+
+Der „Online Certificate Status Protocol Daemon“ ist für die Überprüfung von Internet-Zertifikaten zuständig. Verisign ist eine häufig verwendete Zertifizierungsstelle und wird daher gelegentlich von ocspd zur Überprüfung der Zertifikate kontaktiert.
+
+Bundle ID: com.apple.ocspd
+Pfad: /usr/sbin/ocspd
+
+ODSAgent ⚓︎
+
+Systemprozess zum Bereitstellen optischer Laufwerke (DVD/CD) im lokalen Netzwerk. Diese Funktion kann in „Systemeinstellungen/Freigaben“ aktiviert beziehungsweise deaktiviert werden.
+
+Bundle ID: com.apple.ODSAgent
+Pfad: /System/Library/CoreServices/ODSAgent.app/Contents/MacOS/ODSAgent
+
+opendirectoryd ⚓︎
+
+Der „Open Directory Daemon“ ist Apples Directory-Service, eine Software, die Informationen über die Benutzer und Netzwerkressourcen eines Computernetzwerkes speichert. Open Directory ermöglicht Netzwerk-Administratoren, den Zugriff auf die Ressourcen aus der Ferne zu verwalten. Dazu werden Verbindungen zu einem oder mehreren Servern aufgebaut, die von Ihnen oder Ihrem Netzwerk-Administrator eingerichtet wurden.
+
+Bundle ID: com.apple.opendirectoryd
+Pfad: /usr/libexec/opendirectoryd
+
+OpenSpell.service ⚓︎
+
+Rechtschreibkorrektur-Service von macOS, der in Cocoa-Anwendungen wie Mail zur Verfügung steht. Unterstützt AppleSpell und ist nur aktiv, wenn man ein zusätzliches Hunspell-Wörterbuch in /Library/Spelling installiert hat und dieses ausgewählt ist.
+
+Bundle ID: com.apple.OpenSpell
+Pfad: /System/Library/Services/OpenSpell.service/Contents/MacOS/OpenSpell
+
+parsecd ⚓︎
+
+Systemprozess, wird für Vorschläge in Spotlight, Nachrichten, Nachschlagen und Safari verwendet.
+
+Bundle ID: com.apple.parsecd
+Pfad: /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+
+passd ⚓︎
+
+Teil des PassKit Frameworks für Apple Pay. Verbindet sich üblicherweise zu smp-device-content.apple.com, um Konfigurationsdaten abzurufen.
+
+Bundle ID: com.apple.passd
+Pfad: /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+
+pboard ⚓︎
+
+Zwischenablage von macOS. Der Daemon stellt die Funktionen Ausschneiden, Einfügen und Kopieren über Anwendungen hinweg bereit.
+
+Bundle ID: com.apple.pboard
+Pfad: /usr/libexec/pboard
+
+pbs ⚓︎
+
+Stellt das Dienste-Menü, zum Beispiel im Kontext-Menü des Finders, bereit und aktualisiert es bei Bedarf.
+
+Bundle ID: com.apple.pbs
+Pfad: /System/Library/CoreServices/pbs
+
+periodic-wrapper ⚓︎
+
+Führt periodische Systemfunktionen aus. Wird von launchd aufgerufen, um Skripte unter /etc/periodic auszuführen.
+
+Bundle ID: com.apple.periodic-daily
+Pfad: /usr/libexec/periodic-wrapper
+
+photoanalysisd ⚓︎
+
+Unterstützt die Fotos-App und kümmert sich um die Objekt- und Gesichtserkennung per künstlicher Intelligenz. Arbeitet ausschließlich lokal.
+
+Bundle ID: com.apple.photoanalysisd
+Pfad: /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+
+photolibraryd ⚓︎
+
+Der iCloud-Fotomediathek-Daemon ist ein Systemprozess und synchronisiert Ihre Fotos und Videos zwischen Ihren Macs und iOS-Geräten.
+
+Bundle ID: com.apple.photolibraryd
+Pfad: /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+
+pkd ⚓︎
+
+Verwaltet Plug-ins für PlugInKit-Subsystem.
+
+Bundle ID: com.apple.pluginkit.pkd
+Pfad: /usr/libexec/pkd
+
+powerd ⚓︎
+
+Zuständig für das Energiemanagement des Rechners. Implementiert die Systemeinstellung „Energie sparen“.
+
+Bundle ID: com.apple.powerd
+Pfad: /System/Library/CoreServices/powerd.bundle/powerd
+
+"pppd ⚓︎
+
+Der „Point-to-Point Protocol Daemon“ wird verwendet, um Netzwerkverbindungen zwischen zwei Knoten zu verwalten.
+
+Einer seiner häufigsten Anwendungsfälle heutzutage ist die Herstellung von Point-to-Point-Verbindungen für eine Reihe von verschiedenen Arten von VPNs (Virtuelle Private Netzwerke).
+
+Bundle ID: com.apple.pppd
+Pfad: /usr/sbin/pppd
+
+printtool ⚓︎
+
+Teil der CUPS-Implementierung (Common Unix Printing System) von macOS, die das Drucken auf lokalen und Netzwerk-Druckern erlaubt.
+
+Bundle ID: com.apple.print.framework.PrintCore
+Pfad: /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool
+
+ProtectedCloudKeySyncing ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.protectedcloudstorage.protectedcloudkeysyncing
+Pfad: /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+
+ptmd ⚓︎
+
+Die Aufgabe des „Platform Thermal Monitor Daemon“ ist unklar. Delegiert offenbar auf einigen Macs die Übermittlung von Temperatur-Informationen an eine Hardware-Komponente.
+
+Bundle ID: com.apple.platform.ptmd
+Pfad: /usr/libexec/ptmd
+
+PTPCamera ⚓︎
+
+Unterstützt Apps wie Fotos oder iPhoto beim Laden von Bildern von einer externen Kamera (iPhone, DSLR etc.). PTP steht für Picture Transfer Process. Arbeitet zusammen mit apple.DevicePropertyReader.
+
+Bundle ID: com.apple.PTPCamera
+Pfad: /System/Library/Image Capture/Devices/PTPCamera.app/Contents/MacOS/PTPCamera
+
+PubSubAgent ⚓︎
+
+Teil des Publication-Subscription-Frameworks von Apple und verantwortlich für das Verwalten und Synchronisieren von RSS/Atom-Feeds.
+
+Bundle ID: com.apple.PubSubAgent
+Pfad: /System/Library/Frameworks/PubSub.framework/Versions/A/Resources/PubSubAgent.app/Contents/MacOS/PubSubAgent
+
+Quick Look UI Helper ⚓︎
+
+Teil der Übersicht-Funktion (Quicklook) von macOS. Dieser Systemprozess zeigt und implementiert das minimale GUI, das „Öffnen mit Vorschau“ , „Teilen“ und die Navigation in Dokumenten ermöglicht.
+
+Bundle ID: com.apple.quicklook.ui.helper
+Pfad: /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/Resources/QuickLookUIHelper.app/Contents/MacOS/QuickLookUIHelper
+
+quicklookconfig ⚓︎
+
+Teil der Übersicht-Funktion (Quicklook) von macOS, die Vorschauen von Dateien und Ordnern im Finder und anderen Apps anzeigt.
+
+Pfad: /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookconfig
+
+quicklookd ⚓︎
+
+„Quick Look Daemon“ ist ein Systemprozess, der die Übersicht-Funktion bereitstellt, die Vorschauen von Dateien und Ordnern im Finder und anderen Apps anzeigt.
+
+Bundle ID: com.apple.QuickLookDaemon
+Pfad: /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app/Contents/MacOS/quicklookd
+
+QuickLookSatellite ⚓︎
+
+Unterstützt quicklookd im Sandbox-Modus mit speziellen Funktionen.
+
+Pfad: /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app/Contents/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+
+racoon ⚓︎
+
+Systemprozess, der für IPSec (Verfahren für sichere Verbindungen über das Internet-Protokoll) und darauf aufbauenden Diensten wie zum Beispiel „Zugang zu meinem Mac“ (Back To My Mac) benötigt wird.
+
+Bundle ID: com.apple.racoon
+Pfad: /usr/sbin/racoon
+
+recentsd ⚓︎
+
+Verwaltet eine Datenbank, die benutzte Kontakte und Mailadressen speichert, und synchronisiert die Sammlung mit der iCloud.
+
+Bundle ID: com.apple.recentsd
+Pfad: /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+
+reversetemplated ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.reversetemplated
+Pfad: /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/reversetemplated
+
+revisiond ⚓︎
+
+Kümmert sich um die Verwaltung von Dokument-Versionen, die Anwendungen und Systemdienste anlegen.
+
+Bundle ID: com.apple.revisiond
+Pfad: /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+
+rpc.statd ⚓︎
+
+Daemon, der mit rpc.statd-Prozessen auf anderen Computern im Netzwerk zusammenarbeitet, um einen Status-Monitoring-Service bereitzustellen. Kommt hauptsächlich bei NFS (Network File System) zu Einsatz.
+
+Bundle ID: com.apple.statd.notify
+Pfad: /usr/sbin/rpc.statd
+
+rtcreportingd ⚓︎
+
+rtcreportingd verbindet sich zu Servern von apple.com, vermutlich, um Crash- und Diagnoseberichte zu übermitteln.
+
+Bundle ID: com.apple.rtcreportingd
+Pfad: /usr/libexec/rtcreportingd
+
+Safari ⚓︎
+
+Apples Web-Browser.
+
+Bundle ID: com.apple.Safari
+Pfad: /Applications/Safari.app/Contents/MacOS/Safari
+
+SafariCloudHistoryPushAgent ⚓︎
+
+Synchronisiert Lesezeichen, Verlauf und Tabs aus Safari mit der iCloud.
+
+Bundle ID: com.apple.SafariCloudHistoryPushAgent
+Pfad: /usr/libexec/SafariCloudHistoryPushAgent
+
+"SafariNotificationAgent ⚓︎
+
+Bestandteil des Safari-Push-Notification-Service, das Webseiten erlaubt, Benachrichtigungen an die Mitteilungszentrale zu schicken, auch wenn Safari nicht läuft.
+
+Konfiguration in Safari unter „Einstellungen/Mitteilungen“
+
+Bundle ID: com.apple.SafariNotificationAgent
+Pfad: /usr/libexec/SafariNotificationAgent
+
+"sandboxd ⚓︎
+
+Implementiert die Application-Sandbox von macOS im Zusammenspiel mit der Sandbox-Kernel-Erweiterung und sorgt so dafür, dass Anwendungen nur mit eingeschränkten Rechten auf Systemressourcen zugreifen dürfen.
+
+Bundle ID: com.apple.sandboxd
+Pfad: /usr/libexec/sandboxd
+
+ScopedBookmarkAgent ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Prozesse im Ordner „CoreServices“ sind essenzieller Bestandteil von macOS. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.scopedbookmarkagent.xpc
+Pfad: /System/Library/CoreServices/ScopedBookmarkAgent
+
+screensharingd ⚓︎
+
+Der „Screen Sharing Daemon“ ist ein Systemprozess, der VNC-Verbindungen (Virtual Network Computing) behandelt, falls „Systemeinstellungen/Freigaben/Bildschirmfreigabe“ aktiv ist. Das ist notwendig, um Ihren Mac von einem anderen Computer steuern zu können.
+
+Bundle ID: com.apple.screensharing.daemon
+Pfad: /System/Library/CoreServices/RemoteManagement/screensharingd.bundle/Contents/MacOS/screensharingd
+
+ScriptMonitor ⚓︎
+
+Führt Automator-Workflows sowie Skripte aus und zeigt den Fortschritt über ein drehendes Zahnrad in der Menüleiste an. Ist in der Regel nicht dauerhaft aktiv.
+
+Bundle ID: com.apple.ScriptMonitor
+Pfad: /System/Library/CoreServices/ScriptMonitor.app/Contents/MacOS/ScriptMonitor
+
+secd ⚓︎
+
+Der „Centralised Keychain Agent“ kontrolliert den Zugriff auf Objekte im Schlüsselbund (Keychain). Alle Prozesse, die den Schlüsselbund verwenden wollen, müssen dazu diesen LaunchAgent nutzen.
+
+Bundle ID: com.apple.secd
+Pfad: /usr/libexec/secd
+
+secinitd ⚓︎
+
+Der „Security Policy Initialization Daemon“ initialisiert die Sicherheitsrichtlinien des Systems. Diese regeln, welche Rechte einzelne Prozesse erhalten.
+
+Bundle ID: com.apple.secinitd
+Pfad: /usr/libexec/secinitd
+
+securityd ⚓︎
+
+Der „Security Daemon“ stellt zentrale Sicherheitsfunktionen bereit, authentifiziert Benutzer und legitimiert Zugriffe auf dem Schlüsselbund.
+
+Bundle ID: com.apple.securityd
+Pfad: /usr/sbin/securityd
+
+securityd_service ⚓︎
+
+Hilfsprozess für securityd. Sperrt und entsperrt den Schlüsselbund.
+
+Bundle ID: com.apple.securityd_service
+Pfad: /usr/libexec/securityd_service
+
+"sharedfilelistd ⚓︎
+
+Der Dienst verwaltet zuletzt geöffnete Dokument und Ordner sowie die Historie der zuletzt verbundenen Server.
+
+Die Verwaltungsdaten liegen im Ordner ~/Library/Application Support/com.apple.sharedfilelist
+
+Bundle ID: com.apple.coreservices.sharedfilelistd
+Pfad: /System/Library/CoreServices/sharedfilelistd
+
+sharingd ⚓︎
+
+Bringt dem Finder unter anderem die Unterstützung für AirDrop, Handoff und die DVD-Freigabe bei.
+
+Bundle ID: com.apple.sharingd
+Pfad: /usr/libexec/sharingd
+
+sleep ⚓︎
+
+Shell-Befehl, der die Befehlsausführung für die angegeben Zeit pausiert.
+
+Pfad: /bin/sleep
+
+smbd ⚓︎
+
+Der „SMB Server Daemon“ bietet Freigaben innerhalb eines Netzwerks über das SMB-Protokoll an. Ist die SMB-Option in den Systemeinstellungen unter Freigaben aktiviert, werden eingehende Verbindungen zum Zugriff auf Ihre Freigaben akzeptiert.
+
+Bundle ID: com.apple.smbd
+Pfad: /usr/sbin/smbd
+
+smd ⚓︎
+
+Der „ServiceManagement Framework Daemon“ ermöglicht das Laden und Beenden von launchd-Services.
+
+Bundle ID: com.apple.xpc.smd
+Pfad: /usr/libexec/smd
+
+smtp ⚓︎
+
+Der Postfix SMTP+LMTP-Client implementiert das SMTP- und LMTP-Mail-Delivery-Protokoll und ist Bestandteil von macOS.
+
+Bundle ID: com.apple.smtp
+Pfad: /usr/libexec/postfix/smtp
+
+snmpInk ⚓︎
+
+Systemprozess, der in regelmäßigen Abständen gestartet wird. Baut Verbindungen zu allen verfügbaren Netzwerkdruckern auf und prüft den Tintenfüllstand.
+
+Bundle ID: com.apple.snmpInk
+Pfad: /System/Library/Printers/Libraries/snmpInk
+
+sntp ⚓︎
+
+Teil eines Dienstes zum Übernehmen der Uhrzeit von einem Netzwerkzeitserver.
+
+Pfad: /usr/bin/sntp
+
+soagent ⚓︎
+
+Unterstützt die Nachrichten-App und Facetime.
+
+Bundle ID: com.apple.soagent
+Pfad: /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+
+SocialPushAgent ⚓︎
+
+Verantwortlich für das Empfangen von Nachrichten (Push Notifications), die an Apps auf Ihrem Computer gesendet werden.
+
+Bundle ID: com.apple.SocialPushAgent
+Pfad: /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+
+socketfilterfw ⚓︎
+
+Application-Firewall, die die System-Einstellung „Sicherheit > Firewall“ implementiert.
+
+Bundle ID: socketfilterfw
+Pfad: /usr/libexec/ApplicationFirewall/socketfilterfw
+
+Software Update ⚓︎
+
+Seit OS X 10.8 startet die „Software Update“ lediglich die App-Store-App um nach Aktualisierungen zu suchen. Vor OS X 10.8 verband sich „Software Update“ mit Apple-Servern, um nach Aktualisierungen zu suchen und diese zu laden.
+
+Bundle ID: com.apple.SoftwareUpdate
+Pfad: /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update
+
+softwareupdate ⚓︎
+
+Terminal-Befehl zum Prüfen auf Aktualisierungen. Softwareupdate verbindet sich auf Systemen vor OS X 10.9 direkt mit Apple-Servern. Beginnend mit OS X 10.9 verwendet softwareupdate den SoftwareUpdateDaemon, um Verbindungen aufzubauen.
+
+Bundle ID: com.apple.softwareupdated
+Pfad: /usr/sbin/softwareupdate
+
+softwareupdate_notify_agent ⚓︎
+
+Der Agent informiert den Anwender über anstehende Software-Updates.
+
+Bundle ID: com.apple.SoftwareUpdate
+Pfad: /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+
+softwareupdated ⚓︎
+
+Der SoftwareUpdateDaemon ist ein Systemprozess, der im Hintergrund prüft, ob Updates für macOS verfügbar sind.
+
+Bundle ID: com.apple.softwareupdated
+Pfad: /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+
+SpeechSynthesisServer ⚓︎
+
+Stellt Anwendungen Methoden bereit, um die Sprachausgabe des Systems nutzen zu können.
+
+Bundle ID: com.apple.speech.synthesis.SpeechSynthesisServer
+Pfad: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesisServer.app/Contents/MacOS/SpeechSynthesisServer
+
+spindump ⚓︎
+
+Erzeugt Absturzberichte im Ordner /Library/Logs/DiagnosticReports/, wenn das Beenden eines Prozesses über „Sofort Beenden“ erzwungen wurde.
+
+Bundle ID: com.apple.spindump
+Pfad: /usr/sbin/spindump
+
+spindump_agent ⚓︎
+
+Hilfs-Agent für spindump.
+
+Bundle ID: com.apple.spindump_agent
+Pfad: /usr/libexec/spindump_agent
+
+Spotlight ⚓︎
+
+Die Bedienoberfläche für Apples Suchdienst, die vor allem die Ergebnisse sortiert und anzeigt. Lokale Daten werden durch mit „md…“ beginnende Prozesse indexiert.
+
+Bundle ID: com.apple.Spotlight
+Pfad: /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+
+sshd ⚓︎
+
+Der „SSH Daemon“ akzeptiert eingehende Verbindungen, wenn sich ein Benutzer an Ihrem Computer mittels SSH anmeldet („Entfernte Anmeldung“ in „Systemeinstellungen/Freigaben“).
+
+Bundle ID: com.openssh.sshd
+Pfad: /usr/sbin/sshd
+
+storeaccountd ⚓︎
+
+Teil des Mac App Store, Apples digitaler Vertriebsplattform für Mac-Programme. Verbindet sich zu Servern von Apple, um Ihr Benutzerkonto zu überprüfen. Für die Anzeige und zum Laden von Apps wird die App-Store-App verwendet.
+
+Bundle ID: com.apple.storeaccountd
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+
+storeassetd ⚓︎
+
+Teil des Mac App Store, Apples digitaler Vertriebsplattform für Mac-Programme. Muss sich zu Servern von Apple verbinden, um anzeigen zu können, welche Apps verfügbar sind. Für die Anzeige und zum Laden von Apps wird die App-Store-App verwendet.
+
+Bundle ID: com.apple.storeassetd
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+
+storedownloadd ⚓︎
+
+Teil des Mac App Store, Apples digitaler Vertriebsplattform für Mac-Programme. Muss sich zu Servern von Apple verbinden. Führt den tatsächlichen Download der Apps durch. Für die Anzeige von Apps wird die App-Store-App verwendet.
+
+Bundle ID: com.apple.storedownloadd
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+
+storeinappd ⚓︎
+
+Teil des Mac App Store, Apples digitaler Vertriebsplattform für Mac-Programme. Muss sich zu Servern von Apple verbinden, um In-App-Käufe zu überprüfen. Für die Anzeige und zum Laden von Apps wird die App-Store-App verwendet.
+
+Bundle ID: com.apple.storeinappd
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinappd
+
+storeinstalld ⚓︎
+
+Kümmert sich darum, dass Installationen vom Mac App Store ausgeführt werden können. Insbesondere gilt dies für macOS-Updates.
+
+Bundle ID: com.apple.storeinstalld
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+
+storelegacy ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.storelegacy
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+
+storeuid ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.storeuid
+Pfad: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+
+SubmitDiagInfo ⚓︎
+
+Falls der Anwender es erlaubt, sendet „SubmitDiagInfo“ in regelmäßigen Abständen Diagnose- und Nuntzungsinformationen an Apple. Zudem löscht der Prozess aufgezeichnete Informationen, die älter als einen Monat sind.
+
+Bundle ID: com.apple.SubmitDiagInfo
+Pfad: /System/Library/CoreServices/SubmitDiagInfo
+
+suggestd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.suggestd
+Pfad: /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+
+suhelperd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.suhelperd
+Pfad: /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/suhelperd
+
+swcd ⚓︎
+
+Der „Shared Web Credentials Daemon“ ermöglicht es Apps, Zugangsdaten über eine fest definierte Website abzufragen und im Schlüsselbund zu speichern. Außerdem ist der Daemon für Universal Links zuständig. Das sind spezielle URLs, die beim Aufruf automatisch die zugehörige App öffnen.
+
+Bundle ID: com.apple.swcd
+Pfad: /usr/libexec/swcd
+
+symptomsd ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.symptomsd
+Pfad: /usr/libexec/symptomsd
+
+syncdefaultsd ⚓︎
+
+Der „Defaults Synchronization Daemon“ ist Teil der iCloud-Integration von macOS und synchronisiert die Einstellungen von Apps zwischen Ihren Geräten und iCloud.
+
+Bundle ID: com.apple.syncdefaultsd
+Pfad: /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+
+syslogd ⚓︎
+
+Im Zusammenspiel mit aslmanager schreibt syslogd die Log-Dateien des Systems. Welche Nachrichten wann wo landen sollen, wird in der Datei /etc./asl.conf spezifiziert.
+
+Bundle ID: com.apple.syslogd
+Pfad: /usr/sbin/syslogd
+
+sysmond ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Hilfsprogramme im Ordner „libexec“ werden von anderen Prozessen aufgerufen und in der Regel nicht direkt ausgeführt. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.sysmond
+Pfad: /usr/libexec/sysmond
+
+syspolicyd ⚓︎
+
+„System Policy Daemon“ verwaltet die Systemrichtlinien, die bestimmen, was installiert, ausgeführt und anderweitig im System genutzt werden darf. Die Richtliniendatenbank hat den Pfad /var/db/SystemPolicy.
+
+Bundle ID: com.apple.security.syspolicy
+Pfad: /usr/libexec/syspolicyd
+
+system_installd ⚓︎
+
+Hilft dem System beim Auspacken und Entfernen von in Packages verpackten Anwendungen.
+
+Bundle ID: com.apple.system_installd
+Pfad: /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+
+systemsoundserverd ⚓︎
+
+Gehört zu Core Audio und ist fürs Abspielen von Systemsounds wie dem Kamera-Auslöse-Sound bei Bildschirmfotos verantwortlich.
+
+Bundle ID: com.apple.audio.systemsoundserverd
+Pfad: /usr/sbin/systemsoundserverd
+
+systemstats ⚓︎
+
+Ermittelt Statistiken zum Energiebedarf des Systems.
+
+Bundle ID: com.apple.systemstats.analysis
+Pfad: /usr/sbin/systemstats
+
+SystemUIServer ⚓︎
+
+Systemprozess, kontrolliert zahlreiche Aspekte der Bedienoberfläche Ihres Mac, einschließlich des rechten Statusbereichs der Menüleiste, welcher Menulets wie beispielsweise zu Bluetooth, WLAN sowie von Drittanbietern enthält.
+
+Bundle ID: com.apple.systemuiserver
+Pfad: /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+
+taskgated ⚓︎
+
+Der Daemon „task_for_pid Access Control“ prüft, ob ein anfragender Prozess die nötigen Rechte hat, um von einem anderen Prozess den Mach-Task-Port zu erfahren.
+
+Bundle ID: com.apple.taskgated-helper
+Pfad: /usr/libexec/taskgated
+
+tccd ⚓︎
+
+Ist für die Datenbank ~/Library/Application Support/com.apple.TCC/TCC.db zuständig, die den Zugriff von Anwendungen auf Kontakte, Kalender und andere Daten regelt. In den System-Einstellungen zur Sicherheit finden Sie diese unter „Privatsphäre“.
+
+Bundle ID: com.apple.tccd.system
+Pfad: /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+
+Terminal ⚓︎
+
+Kommandozeilen-Oberfläche von macOS. Ruft standardmäßig eine bash-Shell und einen login-Prozess auf.
+
+Bundle ID: com.apple.Terminal
+Pfad: /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+
+TMCacheDelete ⚓︎
+
+Hilfsprozess für backupd.
+
+Bundle ID: com.apple.backupd.bundle
+Pfad: /System/Library/CoreServices/backupd.bundle/Contents/Resources/TMCacheDelete
+
+trustd ⚓︎
+
+Systemprozess, der Zertifikate unterschiedlicher Natur validiert (und gegebenenfalls auch invalidiert). Unter anderem auch jene der im System gespeicherten TLS/SSL-Zertifizierungsstellen.
+
+Bundle ID: com.apple.trustd
+Pfad: /usr/libexec/trustd
+
+uninstalld ⚓︎
+
+Uninstaller, der vom Launchpad genutzt wird, um über den Mac App Store geladene Software zu deinstallieren.
+
+Bundle ID: com.apple.uninstalld
+Pfad: /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+
+universalaccessAuthWarn ⚓︎
+
+Hilfsprozess für universalaccessd.
+
+Bundle ID: com.apple.accessibility.universalAccessAuthWarn
+Pfad: /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn
+
+universalaccessd ⚓︎
+
+Hintergrundprozess, der die Systemeinstellungen zu den „Bedienungshilfen“ umsetzt.
+
+Bundle ID: com.apple.universalaccessd
+Pfad: /usr/sbin/universalaccessd
+
+USBAgent ⚓︎
+
+Gibt Mitteilungen bezüglich USB-Geräten aus.
+
+Bundle ID: com.apple.USBAgent
+Pfad: /usr/libexec/USBAgent
+
+usbd ⚓︎
+
+Der „USB Daemon“ bereitet iOS-Geräte für den Ladevorgang vor und gibt Mitteilungen bezüglich USB-Geräten aus.
+
+Bundle ID: com.apple.usbd
+Pfad: /usr/libexec/usbd
+
+usbmuxd ⚓︎
+
+Systemprozess und wird von iTunes zum Synchronisieren von iOS-Geräten über WiFi verwendet.
+
+Bundle ID: com.apple.usbmuxd
+Pfad: /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
+
+useractivityd ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.coreservices.useractivityd
+Pfad: /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+
+UserEventAgent ⚓︎
+
+Hilfsprogramm, das vom System bereitgestellte Plug-Ins lädt, um System-Ereignisse auf höherer Ebene zu bearbeiten und welche nicht direkt von launchd überwacht werden können.
+
+Bundle ID: com.apple.UserEventAgent-System
+Pfad: /usr/libexec/UserEventAgent
+
+usernoted ⚓︎
+
+Essenzieller Bestandteil der Mitteilungszentrale.
+
+Bundle ID: com.apple.usernoted
+Pfad: /usr/sbin/usernoted
+
+VDCAssistant ⚓︎
+
+Prozess, der die iSight-Kamera aussteuert.
+
+Bundle ID: com.apple.cmio.DAL.VDC-4
+Pfad: /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+
+"videosubscriptionsd ⚓︎
+
+Dienst für Apples „Single Sign-On Video Subscription Services“, kümmert sich um die Authentifizierung bei TV-Streaming-Diensten. TV-Abos sind derzeit nur in den USA verfügbar. Teil des VideoSubscriberAccount-Frameworks.
+
+Speichert Verwaltungsdaten in ~/Library/Application Support/videosubscriptionsd/VSSubscriptions.sqlite
+
+Bundle ID: com.apple.VideoSubscriberAccount.videosubscriptionsd
+Pfad: /usr/libexec/videosubscriptionsd
+
+ViewBridgeAuxiliary ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.ViewBridgeAuxiliary
+Pfad: /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+
+VTDecoderXPCService ⚓︎
+
+Wird unter anderem von der Fotos-App genutzt. Erstellt kompakte und kompatible Begleitdateien zu Videos in der Fotomediathek. So lassen sich Filme ohne Verzögerung zum Beispiel per Mail verschicken.
+
+Bundle ID: com.apple.coremedia.videodecoder
+Pfad: /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+
+warmd ⚓︎
+
+Kümmert sich um Cache-Dateien während des Startup-Vorgangs und beim Login.
+
+Bundle ID: com.apple.warmd
+Pfad: /usr/libexec/warmd
+
+watchdogd ⚓︎
+
+Überwacht das System. Wenn es nicht mehr reagiert, führt watchdog automatische einen Neustart durch.
+
+Bundle ID: com.apple.watchdogd
+Pfad: /usr/libexec/watchdogd
+
+wdhelper ⚓︎
+
+Hilft bei der Diagnose drahtloser Netzwerkverbindungen.
+
+Bundle ID: com.apple.wdhelper
+Pfad: /usr/libexec/wdhelper
+
+webfilterproxyd ⚓︎
+
+Systemprozess, der verwendet wird, um den Netzwerkverkehr für Benutzerkonten mit aktivierter Kindersicherung einzuschränken. Jeglicher Internet-Datenverkehr wird über diesen Proxy geleitet.
+
+Bundle ID: com.apple.webcontentfilter.proxy
+Pfad: /System/Library/PrivateFrameworks/WebContentAnalysis.framework/Versions/A/Resources/webfilterproxyd
+
+WiFiAgent ⚓︎
+
+Funktion unklar. Offenbar für Teile der Bedienoberfläche zur WLAN-Konfiguration zuständig.
+
+Bundle ID: com.apple.wifi.WiFiAgent
+Pfad: /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+
+WiFiProxy ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.WiFiProxy
+Pfad: /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+
+WiFiVelocityAgent ⚓︎
+
+launchd-Agent des WiFiVelocity-Frameworks. XPC-Hilfsprozess für Aktionen im User-Kontext. Genaue Funktion unklar.
+
+Bundle ID: com.apple.WiFiVelocityAgent
+Pfad: /usr/libexec/WiFiVelocityAgent
+
+wifivelocityd ⚓︎
+
+launchd-Daemon des WiFiVelocity-Frameworks. XPC-Hilfsprozess für Aktionen im System-Kontext. Genaue Funktion unklar.
+
+Bundle ID: com.apple.wifivelocityd
+Pfad: /usr/libexec/wifivelocityd
+
+WindowServer ⚓︎
+
+Ein für alle GUI-Anwendungen notwendiger zentraler Anlaufpunkt, der den Kontakt zu AppKit, HIToolbox oder Process-Manager vermittelt.
+
+Bundle ID: com.apple.SkyLight
+Pfad: /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer
+
+wirelessproxd ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Programme im Ordner „sbin“ erfüllen in der Regel administrative Aufgaben. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.wirelessproxd
+Pfad: /usr/sbin/wirelessproxd
+
+WirelessRadioManagerd ⚓︎
+
+Zu diesem Prozess liegen uns keine Informationen vor. Die Programme im Ordner „sbin“ erfüllen in der Regel administrative Aufgaben. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.WirelessRadioManagerd-osx
+Pfad: /usr/sbin/WirelessRadioManagerd
+
+writeconfig ⚓︎
+
+Zur Funktion dieses privaten System-Frameworks liegen uns noch keine Informationen vor. Wissen Sie mehr? Ergänzungen nehmen wir gerne per E-Mail entgegen.
+
+Bundle ID: com.apple.systemadministration.writeconfig
+Pfad: /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+
+XprotectService ⚓︎
+
+Teil des Gatekeeper-Dienstes von macOS, der Apps vor dem Starten gegen eine Liste bekannter Malware prüft.
+
+Bundle ID: com.apple.XprotectFramework.AnalysisService
+Pfad: /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+
